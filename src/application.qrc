@@ -22,5 +22,6 @@
         <file>resources/pics/toolbar_3.png</file>
         <file>resources/pics/toolbar_4.png</file>
         <file>resources/pics/toolbar_5.png</file>
+        <file>translations/qgo_zh_CN.qm</file>
     </qresource>
 </RCC>

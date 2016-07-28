@@ -63,6 +63,9 @@
       <UniqueIdentifier>{E0D8C965-CC5F-43d7-AD63-FAEF0BBC0F85}-updateqm</UniqueIdentifier>
       <ParseFiles>false</ParseFiles>
     </Filter>
+    <Filter Include="Resource Files\pics">
+      <UniqueIdentifier>{80c960a0-aa8a-4934-9bd5-eca76f296229}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="audio\audio.cpp">
@@ -442,299 +445,305 @@
     <CustomBuild Include="network\wing.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
+    <CustomBuild Include="translations\qgo_zh_CN.ts">
+      <Filter>Translation Files</Filter>
+    </CustomBuild>
     <CustomBuild Include="board\resources\pics\1downarrow.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\1leftarrow.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\1rightarrow.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\1uparrow.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\2downarrow.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\2leftarrow.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\2rightarrow.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\2uparrow.png">
-      <Filter>Resource Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="resources\pics\Bowl.ico">
-      <Filter>Resource Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="resources\pics\Bowl.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\alt_ghost_black.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\alt_ghost_white.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\back.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\barcelona_cherry.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\bottom.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resources\pics\Bowl.ico">
+      <Filter>Resource Files\pics</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resources\pics\Bowl.png">
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="resources\pics\close.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="resources\pics\connect_no2.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="resources\pics\connected.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\contexthelp.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\coord.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\coord2.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\down.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\duplicate.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\duplicate_move.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\editcut.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\empty_branch.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\eraser.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\eurobeech.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\exit.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\exit2.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\export.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\export2.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\fileexport.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\filesave.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\filesaveas.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\forward.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\goldenbeech.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\goto_move.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\idea.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\import.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\import2.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\insert_move.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\lemontree.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\manitoba.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\maple.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\next.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\next_comment.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="resources\pics\not_seeking.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\paper.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\paste.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\paste_as_var.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\plain.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\player_pause.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\player_play.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\previous.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\previous_comment.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="resources\pics\qgo.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="resources\pics\qgo_16x16.xpm">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="resources\pics\qgo_32x32.xpm">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="resources\pics\qgo_48x48.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="resources\pics\qgo_48x48.xpm">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="resources\pics\refresh_games.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="resources\pics\refresh_players.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\reload.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="resources\pics\seeking1.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="resources\pics\seeking2.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="resources\pics\seeking3.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="resources\pics\seeking4.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\sound_off.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\sound_on.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\start.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\stone_add.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\stone_black.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\stone_circle.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\stone_color.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\stone_cross.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\stone_letter.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\stone_number.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\stone_plain.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\stone_square.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\stone_triangle.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\stone_white.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\stop.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\swap_variations.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\table.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="resources\pics\toolbar_1.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="resources\pics\toolbar_2.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="resources\pics\toolbar_3.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="resources\pics\toolbar_4.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="resources\pics\toolbar_5.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\top.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\up.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\view_tree.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\wood.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\wood3.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\wood4.png">
+      <Filter>Resource Files\pics</Filter>
+    </CustomBuild>
+    <CustomBuild Include="application.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="board\board.qrc">
       <Filter>Resource Files</Filter>
     </CustomBuild>
     <CustomBuild Include="board\resources\pics\wood5.png">
-      <Filter>Resource Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="translations\qgo_zh_cn.ts">
-      <Filter>Translation Files</Filter>
+      <Filter>Resource Files\pics</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -871,48 +880,7 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="application.qrc">
-      <Filter>Resource Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="board\board.qrc">
-      <Filter>Resource Files</Filter>
-    </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="translations\qgo_cz.ts">
-      <Filter>updateqm</Filter>
-    </CustomBuild>
-    <CustomBuild Include="translations\qgo_de.ts">
-      <Filter>updateqm</Filter>
-    </CustomBuild>
-    <CustomBuild Include="translations\qgo_dk.ts">
-      <Filter>updateqm</Filter>
-    </CustomBuild>
-    <CustomBuild Include="translations\qgo_fr.ts">
-      <Filter>updateqm</Filter>
-    </CustomBuild>
-    <CustomBuild Include="translations\qgo_it.ts">
-      <Filter>updateqm</Filter>
-    </CustomBuild>
-    <CustomBuild Include="translations\qgo_la.ts">
-      <Filter>updateqm</Filter>
-    </CustomBuild>
-    <CustomBuild Include="translations\qgo_nl.ts">
-      <Filter>updateqm</Filter>
-    </CustomBuild>
-    <CustomBuild Include="translations\qgo_pt.ts">
-      <Filter>updateqm</Filter>
-    </CustomBuild>
-    <CustomBuild Include="translations\qgo_ru.ts">
-      <Filter>updateqm</Filter>
-    </CustomBuild>
-    <CustomBuild Include="translations\qgo_tr.ts">
-      <Filter>updateqm</Filter>
-    </CustomBuild>
-    <CustomBuild Include="translations\qgo_zh.ts">
-      <Filter>updateqm</Filter>
-    </CustomBuild>
-    <CustomBuild Include="translations\qgo_zh_cn.ts">
+    <CustomBuild Include="translations\qgo_zh_CN.ts">
       <Filter>updateqm</Filter>
     </CustomBuild>
   </ItemGroup>

@@ -32,58 +32,17 @@ ConnectionWidget * connectionWidget = 0;
 
 QTranslator * translatorPtr;
 
-void installTranslator(enum Language l)
-{
-    switch(l)
-    {
-        case German:
-            translatorPtr->load("qgo_de",TRANSLATIONS_PATH);
-            return;
-        case French:
-            translatorPtr->load("qgo_fr",TRANSLATIONS_PATH);
-            break;
-        case Italian:
-            translatorPtr->load("qgo_it",TRANSLATIONS_PATH);
-            break;
-        case Danish:
-            translatorPtr->load("qgo_dk",TRANSLATIONS_PATH);
-            break;
-        case Dutch:
-            translatorPtr->load("qgo_nl",TRANSLATIONS_PATH);
-            break;
-        case Czech:
-            translatorPtr->load("qgo_cz",TRANSLATIONS_PATH);
-            break;
-        case Chinese:
-            translatorPtr->load("qgo_zh",TRANSLATIONS_PATH);
-            break;
-        case Portugese:
-            translatorPtr->load("qgo_pt",TRANSLATIONS_PATH);
-            break;
-        case Polish:
-            translatorPtr->load("qgo_it",TRANSLATIONS_PATH);
-            break;
-        case Russian:
-            translatorPtr->load("qgo_ru",TRANSLATIONS_PATH);
-            break;
-        case Turkish:
-            translatorPtr->load("qgo_tr",TRANSLATIONS_PATH);
-            break;
-        case None:
-        default:
-            QString locale = QLocale::system().name();
-                translatorPtr->load(QString("qgo_") + locale,TRANSLATIONS_PATH);
-            return;
-    }
-    QCoreApplication::instance()->installTranslator(translatorPtr);
-}
-
 void startqGo(void)
 {
     QSettings settings;
     bool restarting = false;
 
-    installTranslator((enum Language)settings.value("LANGUAGE").toInt());		//temporary place for this
+	QString locale = QLocale::system().name();
+	bool ret = translatorPtr->load(QString("qgo_") + locale, ":/translations/");
+
+	QCoreApplication::instance()->installTranslator(translatorPtr);
+
+
     if(mainwindow)
     {
         restarting = true;
