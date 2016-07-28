@@ -51,11 +51,11 @@ void LGSConnection::sendToggle(const QString & param, bool val)
 
 void LGSConnection::requestGameInfo(unsigned int game_id)
 {
-	char string[20];
-	snprintf(string, 20, "refresh %d\r\n", game_id);
-	sendText(string);
-	snprintf(string, 20, "all %d\r\n", game_id);
-	sendText(string);
+	QString text;
+	text = QString("refresh %1\r\n").arg(game_id);
+	sendText(text);
+	text = QString("all %1\r\n").arg(game_id);
+	sendText(text);
 }
 
 void LGSConnection::onReady(void)

@@ -124,7 +124,7 @@ int main(int argc, char *argv[])
         mainwindow->openSGF(*filename);
     }
 
-	srand(time(NULL));
+	//srand(time(NULL));
 
     return app->exec();
 }

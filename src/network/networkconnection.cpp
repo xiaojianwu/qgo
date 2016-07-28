@@ -505,7 +505,7 @@ void NetworkConnection::OnError(QAbstractSocket::SocketError i)
             setState(CONN_REFUSED);
 			break;
         case QTcpSocket::HostNotFoundError:
-            setState(HOST_NOT_FOUND);
+            setState(HOST_NOT_FOUND_ERROR);
 			break;
         case QTcpSocket::SocketTimeoutError:
             setState(SOCK_TIMEOUT);

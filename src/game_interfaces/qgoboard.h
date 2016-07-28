@@ -222,7 +222,7 @@ protected:
 	virtual void localMarkDeadRequest(int x, int y);
     virtual void sendMoveToInterface(StoneColor ,int, int) {}
     virtual void sendPassToInterface(StoneColor ) { doPass(); }
-    virtual Move *doMove(StoneColor c, int x, int y) {}
+	virtual Move *doMove(StoneColor c, int x, int y) { return NULL; }
     virtual void doPass(StoneColor c = stoneNone); // By default the player who is on turn will pass
 protected:
 	bool dontCheckValidity;

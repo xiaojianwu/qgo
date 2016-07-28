@@ -754,19 +754,18 @@ BoardDispatch * IGSConnection::getBoardFromOurOpponent(QString opponent)
 
 void IGSConnection::requestGameInfo(unsigned int game_id)
 {
-	char string[20];
-	snprintf(string, 20, "moves %d\r\n", game_id);
-	sendText(string);
-	snprintf(string, 20, "all %d\r\n", game_id);
-	sendText(string);
+	QString text;
+	text = QString("moves %1\r\n").arg(game_id);
+	sendText(text);
+	text = QString("all %1\r\n").arg(game_id);
+	sendText(text);
 }
 
 void IGSConnection::requestGameStats(unsigned int game_id)
 {
 	qDebug("requestGameStats");
-	char string[20];
-	snprintf(string, 20, "game %d\r\n", game_id);
-	sendText(string);
+	QString text = QString("game %1\r\n").arg(game_id);
+	sendText(text);
 }
 
 int IGSConnection::time_to_seconds(const QString & time)
